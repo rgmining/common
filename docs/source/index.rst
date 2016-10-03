@@ -1,5 +1,9 @@
 Review Graph Mining Common Library
 ===================================
+.. raw:: html
+
+   <div class="addthis_inline_share_toolbox"></div>
+
 This package provides functions and classes used in Review Graph Mining
 project.
 

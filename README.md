@@ -1,6 +1,7 @@
 # Common library for Review Graph Mining
 [![GPLv3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/copyleft/gpl.html)
 [![Build Status](https://travis-ci.org/rgmining/common.svg?branch=master)](https://travis-ci.org/rgmining/common)
+[![wercker status](https://app.wercker.com/status/00645c6dedb906005bbc6c080290f5f6/s/master "wercker status")](https://app.wercker.com/project/byKey/00645c6dedb906005bbc6c080290f5f6)
 [![Code Climate](https://codeclimate.com/github/rgmining/common/badges/gpa.svg)](https://codeclimate.com/github/rgmining/common)
 [![Release](https://img.shields.io/badge/release-0.9.0-brightgreen.svg)](https://github.com/rgmining/common/releases/tag/v0.9.0)
 
