@@ -8,6 +8,15 @@ This package provides functions and classes used in Review Graph Mining
 project.
 
 
+Installation
+--------------
+Use `pip` to install this package.
+
+.. code-block:: bash
+
+   pip install --upgrade rgmining-common
+
+
 API Reference
 ---------------
 .. toctree::

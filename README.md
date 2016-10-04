@@ -17,6 +17,13 @@ The main functions provided by this package are followings:
 
 See [documents](https://rgmining.github.io/common/) for more information.
 
+## Installation
+Use `pip` to install this package.
+
+```
+pip install --upgrade rgmining-common
+```
+
 
 ## License
 This software is released under The GNU General Public License Version 3,
