@@ -1,3 +1,6 @@
+:description: This package provides functions and classes used in
+  Review Graph Mining project.
+
 .. _top:
 
 Review Graph Mining Common Library
