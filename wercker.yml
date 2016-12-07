@@ -16,4 +16,4 @@ deploy:
     - jkawamoto/ghp-import:
         token: $GIT_TOKEN
         basedir: docs/build/html
-        baseurl: https://rgmining.github.io/common
+        baseurl: https://rgmining.github.io/common/
