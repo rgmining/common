@@ -20,10 +20,17 @@
 #
 """Package information of common library for review graph mining project.
 """
+from os import path
 from setuptools import setup, find_packages
 
 
-def _load_requires_from_file(filepath):
+def read(fname):
+    """Read a file.
+    """
+    return open(path.join(path.dirname(__file__), fname)).read()
+
+
+def load_requires_from_file(filepath):
     """Read a package list from a given file path.
 
     Args:
@@ -38,13 +45,16 @@ def _load_requires_from_file(filepath):
 
 setup(
     name='rgmining-common',
-    version='0.9.0',
+    use_scm_version=True,
     author="Junpei Kawamoto",
     author_email="kawamoto.junpei@gmail.com",
     description="Common library for Review graph mining project",
     url="https://github.com/rgmining/common",
     packages=find_packages(exclude=["tests"]),
-    install_requires=_load_requires_from_file("requirements.txt"),
+    setup_requires=[
+        "setuptools_scm"
+    ],
+    install_requires=load_requires_from_file("requirements.txt"),
     test_suite='tests.suite',
     license="GPLv3",
     classifiers=[
