@@ -67,7 +67,7 @@ author = u'Junpei Kawamoto'
 # built documents.
 #
 # The full version, including alpha/beta/rc tags.
-release = u'0.9.0'
+release = u'0.9.1'
 # The short X.Y version.
 version = release[:3]
 
@@ -158,7 +158,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'Review Graph Mining Common Library v0.9.0'
+# html_title = u'Review Graph Mining Common Library v0.9.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
