@@ -9,24 +9,24 @@ common package
 Submodules
 ----------
 
-common.decorator module
------------------------
+common\.decorator module
+------------------------
 
 .. automodule:: common.decorator
     :members:
     :undoc-members:
     :show-inheritance:
 
-common.helper module
---------------------
+common\.helper module
+---------------------
 
 .. automodule:: common.helper
     :members:
     :undoc-members:
     :show-inheritance:
 
-common.writer module
---------------------
+common\.writer module
+---------------------
 
 .. automodule:: common.writer
     :members:
