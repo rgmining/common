@@ -20,11 +20,16 @@
 #
 """Unit test for common package.
 """
+# pylint: disable=invalid-name
 import random
-from StringIO import StringIO
+try:
+    from StringIO import StringIO
+except ImportError:
+    from io import StringIO
 import unittest
 
 import common
+
 
 def sample_function(*_args, **kwargs):
     """Sample function for testing decorators.
@@ -44,6 +49,7 @@ def sample_function(*_args, **kwargs):
 class TestDecorator(unittest.TestCase):
     """Test case for common.decorator module.
     """
+
     def setUp(self):
         """Set up for a test."""
         self.args = tuple(range(10))
