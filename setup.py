@@ -20,6 +20,7 @@
 #
 """Package information of common library for review graph mining project.
 """
+# pylint: disable=invalid-name
 from os import path
 from setuptools import setup, find_packages
 
@@ -58,12 +59,14 @@ setup(
     test_suite='tests.suite',
     license="GPLv3",
     classifiers=[
-            "Development Status :: 4 - Beta",
-            "Intended Audience :: Science/Research",
-            "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-            "Natural Language :: English",
-            "Programming Language :: Python",
-            "Topic :: Software Development :: Libraries",
-            "Topic :: Scientific/Engineering :: Information Analysis"
-        ]
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Natural Language :: English",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.6",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Scientific/Engineering :: Information Analysis"
+    ]
 )

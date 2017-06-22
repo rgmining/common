@@ -20,7 +20,7 @@ See [documents](https://rgmining.github.io/common/) for more information.
 ## Installation
 Use `pip` to install this package.
 
-```
+```shell
 pip install --upgrade rgmining-common
 ```
 
